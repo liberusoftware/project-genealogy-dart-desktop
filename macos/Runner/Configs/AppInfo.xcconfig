@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = project_boilerplate_dart_desktop
+PRODUCT_NAME = project_genealogy_dart_desktop
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.liberusoftware.projectBoilerplateDartDesktop
+PRODUCT_BUNDLE_IDENTIFIER = com.liberusoftware.projectGenealogyDartDesktop
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.liberusoftware. All rights reserved.

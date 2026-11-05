@@ -1,10 +1,10 @@
-# Boilerplate · Dart · Desktop
+# Genealogy · Dart · Desktop
 
-Shared application foundation and module composition. Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
+Family trees, research, evidence and collaboration. Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
 
 This is a presentation skeleton. Product workflows, identity integration and reviewed API adapters must be implemented and verified before production use. Module plans describe intended behavior; they are not installed or published packages.
 
-Shared foundation for the product shells in this presentation layer.
+Based on [project-boilerplate-dart-desktop](https://github.com/liberusoftware/project-boilerplate-dart-desktop) at `c216fb1250e51d4634e96f661fa2bad9ddc8b46b`.
 
 ## Start locally
 
@@ -24,7 +24,7 @@ flutter analyze
 flutter test
 ```
 
-Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/DART.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
+Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/DART.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/genealogy/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
 
 ## Other projects using Dart · Desktop
 
@@ -32,6 +32,7 @@ Use the same presentation foundation for other domains. These repositories provi
 
 | Project | Scope |
 | --- | --- |
+| [Boilerplate](https://github.com/liberusoftware/project-boilerplate-dart-desktop) | Shared application foundation and module composition |
 | [Accounting ERP](https://github.com/liberusoftware/project-accounting-erp-dart-desktop) | Ledgers, tax, reporting and finance workflows |
 | [Automation](https://github.com/liberusoftware/project-automation-dart-desktop) | AI gateways, approvals, rules and integrations |
 | [Billing](https://github.com/liberusoftware/project-billing-dart-desktop) | Subscriptions, pricing, payments and provisioning |
@@ -41,25 +42,24 @@ Use the same presentation foundation for other domains. These repositories provi
 | [CRM](https://github.com/liberusoftware/project-crm-dart-desktop) | Relationships, sales pipelines and customer service |
 | [Ecommerce](https://github.com/liberusoftware/project-ecommerce-dart-desktop) | Catalogs, checkout, orders and fulfillment |
 | [Enterprise SAP](https://github.com/liberusoftware/project-enterprise-sap-dart-desktop) | Enterprise workspace and cross-product orchestration |
-| [Genealogy](https://github.com/liberusoftware/project-genealogy-dart-desktop) | Family trees, research, evidence and collaboration |
 | [Liberu Platform](https://github.com/liberusoftware/project-liberu-official-dart-desktop) | Official sites, staff applications and platform composition |
 | [Maintenance](https://github.com/liberusoftware/project-maintenance-dart-desktop) | Assets, work orders, schedules and field operations |
 | [Music DAW](https://github.com/liberusoftware/project-music-daw-dart-desktop) | Composition, recording, sequencing and audio production |
 | [Real Estate](https://github.com/liberusoftware/project-real-estate-dart-desktop) | Listings, sales, lettings and agency operations |
 | [Social Network](https://github.com/liberusoftware/project-social-network-dart-desktop) | Profiles, feeds, communities and moderation |
 
-## Other presentations for Boilerplate
+## Other presentations for Genealogy
 
 Choose the surface that fits the audience and deployment boundary. The Laravel core remains authoritative across these alternatives.
 
-- [Laravel · Filament](https://github.com/liberusoftware/project-boilerplate-laravel-filament): PHP/Composer Laravel host with Filament panels.
-- [Laravel · Inertia · Vue](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-vue): Laravel routes and sessions with Vue pages over the Inertia protocol.
-- [Laravel · Inertia · React](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
-- [Nuxt · Vue](https://github.com/liberusoftware/project-boilerplate-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
-- [Next.js · React](https://github.com/liberusoftware/project-boilerplate-next-react): Independent React application with explicit Next.js server/client boundaries.
-- [React Native · Expo](https://github.com/liberusoftware/project-boilerplate-mobile-react): Native iOS/Android application using React Native and Expo.
-- [Flutter · Mobile](https://github.com/liberusoftware/project-boilerplate-mobile-flutter): Flutter iOS/Android application using Dart and mobile widgets.
-- [Dart · Mobile](https://github.com/liberusoftware/project-boilerplate-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
+- [Laravel · Filament](https://github.com/liberusoftware/project-genealogy-laravel-filament): PHP/Composer Laravel host with Filament panels.
+- [Laravel · Inertia · Vue](https://github.com/liberusoftware/project-genealogy-laravel-inertia-vue): Laravel routes and sessions with Vue pages over the Inertia protocol.
+- [Laravel · Inertia · React](https://github.com/liberusoftware/project-genealogy-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
+- [Nuxt · Vue](https://github.com/liberusoftware/project-genealogy-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
+- [Next.js · React](https://github.com/liberusoftware/project-genealogy-next-react): Independent React application with explicit Next.js server/client boundaries.
+- [React Native · Expo](https://github.com/liberusoftware/project-genealogy-mobile-react): Native iOS/Android application using React Native and Expo.
+- [Flutter · Mobile](https://github.com/liberusoftware/project-genealogy-mobile-flutter): Flutter iOS/Android application using Dart and mobile widgets.
+- [Dart · Mobile](https://github.com/liberusoftware/project-genealogy-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
 
 ## License and delivery
 

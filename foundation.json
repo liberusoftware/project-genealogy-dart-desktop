@@ -1,9 +1,9 @@
 {
-  "project": "boilerplate",
+  "project": "genealogy",
   "presentation": "dart-desktop",
   "foundation": "project-boilerplate-dart-desktop",
-  "foundationCommit": null,
-  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md",
+  "foundationCommit": "c216fb1250e51d4634e96f661fa2bad9ddc8b46b",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/genealogy/README.md",
   "status": "skeleton",
   "enabledModules": []
 }
